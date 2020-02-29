@@ -5,7 +5,7 @@ jobs:
     name: FTP-Deploy-Action
     runs-on: ubuntu-latest
     steps:
-    - uses: themole3/vidare@master
+    - uses: actions/checkout@master
       with:
         fetch-depth: 2
     - name: FTP-Deploy-Action

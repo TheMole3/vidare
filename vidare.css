@@ -1,0 +1,188 @@
+*{margin:0; padding:0}
+
+html, body{height:100%;
+margin:0;
+padding:0;
+position: relative;
+min-height:100%;
+
+}
+body {
+	background-color: rgb(97, 60, 218);
+}
+
+#container {
+	position: relative;;
+	height: 100%;
+}
+
+
+#background {
+	top:0;
+	left:0;
+	z-index: -2;
+	width: 100vw;
+	height: 120vh;
+	position: fixed;
+	-webkit-transform:translatez(0);
+	-mos-transform:translatez(0);
+	-ms-transform:translatez(0);
+	-o-transform:translatez(0);
+	transform:translatez(0);
+}
+
+/* Heading Vidare */
+
+#headingContainer {
+	z-index: 100;
+
+	position: absolute;
+	top: 2.5vw;
+	height: 12vw;
+
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
+
+	width: 100%;
+
+	text-align: center;
+	background-color: #171717;
+}
+
+#heading {
+	color: white;
+	font-size: 5vw;
+	font-family: 'Rock Salt', cursive;
+}
+
+/* Hiding Modules*/
+
+#whenAndWhere {display: none;}
+#countDown {display: none;}
+#speaker1 {display: none;}
+#speaker2 {display: none;}
+#vad {display: none;}
+
+
+/* Floating Windows */
+
+	.windows {
+		font-size: 5vw;
+		font-family: 'Acme', sans-serif;
+	  color: white;
+
+	  border-radius: 10px;
+
+		background-color: rgba(210, 202, 255, 0.39);
+	}
+
+
+/* When and Where */
+
+	#whenAndWhereText {
+	  padding: 5vw 0;
+	}
+
+	#whenAndWhere {
+		position: absolute;
+
+		left: 15vw;
+
+		width: 70vw;
+		height: 20vw;
+
+		text-align: center;
+	}
+
+/* countDown */
+
+	#countDownText {
+	  padding: 3.125vw 0;
+	}
+
+	#countDown {
+		position: absolute;
+
+		left: 15vw;
+
+		width: 70vw;
+		height: 12.5vw;
+
+		text-align: center;
+	}
+
+/* Speaker Classes */
+
+	.speaker {
+		position: absolute;
+
+		left: calc(15vw + (70vw/2) + 1.25vw);
+
+		width: calc((70vw/2) - 1.25vw);
+		height: 45vw;
+
+		text-align: center;
+	}
+
+	.speakerImgContainer {
+		height: calc(50vw - (2.5vw*2));
+		width: calc(70vw/2);
+		overflow: hidden;
+	}
+
+	.speakerImg {
+		position: absolute;
+		height: calc(50vw - (2.5vw*2));
+		left: -36.25vw;
+		border-radius: 10px;
+		min-width: calc((70vw/2) - 1.25vw);
+		max-width: calc((70vw/2) - 1.25vw);
+	}
+
+	.speakerText {
+		font-size: 3vw;
+		line-height: 4vw;
+		text-align: justify;
+		margin: 2.5vw;
+
+		position: relative;
+		top: calc(-45vw);
+	}
+
+	.speakerTitle {
+		position: relative;
+		top: calc(-43.5vw);
+	}
+
+/* Vad */
+
+	#vadText {
+	  padding: 6.25vw 0;
+	}
+
+	#vad {
+		position: absolute;
+
+		left: 15vw;
+
+		width: 70vw;
+		height: 25vw;
+
+		text-align: center;
+	}
+
+
+/* Schema */
+
+
+@media only screen and (max-device-width : 640px) {
+	#headingContainer {
+		position: fixed;
+	}
+}
+
+@media only screen and (max-device-width: 768px) {
+	#headingContainer {
+		position: fixed;
+	}
+}

@@ -23,7 +23,6 @@ body {
 	z-index: -2;
 	width: 100vw;
 	height: 120vh;
-	position: fixed;
 	-webkit-transform:translatez(0);
 	-mos-transform:translatez(0);
 	-ms-transform:translatez(0);

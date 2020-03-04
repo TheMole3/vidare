@@ -84,9 +84,9 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/2.0.0/trianglify.min.js"></script>
 	<script>
 
-    /*var bg = $("#background");
+    var bg = $("body:before");
 
-    function resizeBackground() {
+    /*function resizeBackground() {
         bg.height($(window).height() + 400);
     }
 
@@ -101,7 +101,7 @@
 			x_colors: ['rgb(130, 111, 243)', 'rgb(97, 60, 218)', 'rgb(164, 53, 197)', 'rgb(249, 119, 251)'],
 			seed: 53,
 		});
-		bg.css({"background-image": "url(" + pattern.png() + ")", "background-repeat": "no-repeat" });
+    $('head').append(`<style>body:before {background: url(${pattern.png()}) no-repeat center center}</style>`);
 	</script>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

@@ -32,6 +32,12 @@ var modules = [
 		id: "#vad",
 		height: 45,
 		margins: 2,
+	},
+	{
+		active: true,
+		id: "#speaker3",
+		height: 45,
+		margins: 2,
 	}
 ]
 

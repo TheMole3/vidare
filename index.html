@@ -75,26 +75,19 @@
 	<script>
 		var bg = $("#background");
 
-		function resizeBackground() {
-		    bg.height($(window).height());
-		}
-
-		$(window).resize(resizeBackground);
-		resizeBackground();
 
 		pattern = Trianglify({
-			width: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
-			height: Math.max(document.documentElement.clientHeight, window.innerHeight || 0),
+			width: $('#background').width(),
+			height: $('#background').height(),
 			variance: 1,
 			cell_size: 60,
 			x_colors: ['rgb(130, 111, 243)', 'rgb(97, 60, 218)', 'rgb(164, 53, 197)', 'rgb(249, 119, 251)'],
 			seed: 53,
 		});
-		bg.css({"background-image": "url(" + pattern.png() + ")", "background-repeat": "no-repeat", "background-size": "cover",  });
+		bg.css({"background-image": "url(" + pattern.png() + ")", "background-repeat": "no-repeat", "background-size": "cover", "position": "fixed"  });
 	</script>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-	<script src="/libraries/jquery.fittext.js"></script>
 
   <script src="/vidare.js?v=1"></script>
 </body>

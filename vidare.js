@@ -52,6 +52,7 @@ function render() {
 			$(item.id).hide()
 		}
 	});
+	console.log(itemsBeforeHeight)
 };
 render()
 

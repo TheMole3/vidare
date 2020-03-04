@@ -85,6 +85,14 @@
 	<script>
 		var bg = $("#background");
 
+    var bg = $("#background");
+
+    function resizeBackground() {
+        bg.height($(window).height() + 400);
+    }
+
+    $(window).resize(resizeBackground);
+    resizeBackground();
 
 		pattern = Trianglify({
 			width: $('#background').width(),

@@ -16,13 +16,13 @@ var modules = [
 		margins: 1,
 	},
 	{
-		active: true,
+		active: false,
 		id: "#speaker1",
 		height: 45,
 		margins: 2,
 	},
 	{
-		active: true,
+		active: false,
 		id: "#speaker2",
 		height: 45,
 		margins: 2,
@@ -31,12 +31,6 @@ var modules = [
 		active: true,
 		id: "#vad",
 		height: 25,
-		margins: 2,
-	},
-	{
-		active: true,
-		id: "#speaker3",
-		height: 45,
 		margins: 2,
 	}
 ]

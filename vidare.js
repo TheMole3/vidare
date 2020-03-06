@@ -5,15 +5,15 @@ var globalMargin = 2.5;
 var modules = [
 	{
 		active: true,
-		id: "#whenAndWhere",
-		height: 20,
+		id: "#countDown",
+		height: 12.5,
 		margins: 1,
 	},
 	{
 		active: true,
-		id: "#countDown",
-		height: 12.5,
-		margins: 1,
+		id: "#info",
+		height: 95,
+		margins: 2,
 	},
 	{
 		active: false,
@@ -29,11 +29,22 @@ var modules = [
 	},
 	{
 		active: true,
-		id: "#vad",
+		id: "#anmalan",
 		height: 25,
 		margins: 2,
+	},
+	{
+		active: true,
+		id: "#whenAndWhere",
+		height: 20,
+		margins: 2,
+	},{
+		active: true,
+		id: "#social",
+		height: 20,
+		margins: 2,
 	}
-]
+];
 
 function render() {
 	var itemsBeforeHeight = defaultTopHeight

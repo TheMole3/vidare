@@ -52,11 +52,14 @@ body {
 /* Hiding Modules*/
 
 #whenAndWhere {display: none;}
+#info {display: none;}
 #countDown {display: none;}
 #speaker1 {display: none;}
 #speaker2 {display: none;}
 #speaker3 {display: none;}
-#vad {display: none;}
+#anmalan {display: none;}
+#social {display: none;}
+
 
 
 /* Floating Windows */
@@ -87,6 +90,26 @@ body {
 		height: 20vw;
 
 		text-align: center;
+	}
+	
+	/* info */
+
+	#infoText {
+	  padding: 5vw 0;
+	}
+
+	#info {
+		padding-left: 2.5vw ;
+		padding-right: 2.5vw;
+		position: absolute;
+
+		left: 15vw;
+
+		width: 65vw;
+		height: 95vw;
+
+		text-align: left;
+		font-size: 4vw;
 	}
 
 /* countDown */
@@ -151,17 +174,34 @@ body {
 
 /* Vad */
 
-	#vadText {
+	#anmalanText {
 	  padding: 6.25vw 0;
 	}
 
-	#vad {
+	#anmalan {
 		position: absolute;
 
 		left: 15vw;
 
 		width: 70vw;
 		height: 25vw;
+
+		text-align: center;
+	}
+	
+	/* Social */
+
+	#socialText {
+	  padding: 3.125vw 0;
+	}
+
+	#social {
+		position: absolute;
+
+		left: 15vw;
+
+		width: 70vw;
+		height: 20vw;
 
 		text-align: center;
 	}

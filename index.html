@@ -39,7 +39,7 @@
         Snart händer det!
       </div>
     </div>
-    
+
     <div class="windows" id="info">
       <div id="infoText">
         Välkommen till ungdomskonferensen med Jesus i centrum!<br>
@@ -79,7 +79,7 @@
 				<span><a href="https://docs.google.com/forms/d/e/1FAIpQLSdzWj7201In_nO3lokB2MGn7wx7o2F4ZrijxAdId9_flhgtzA/viewform?usp=send_form">Klicka här</a></span>
 			</div>
 		</div>
-		
+
 		<div class="windows" id="social">
 			<div id="socialText">
 				<span>Instagram:</span>
@@ -97,7 +97,10 @@
   crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/2.0.0/trianglify.min.js"></script>
 	<script>
-
+    if(window.location.protocol != 'https:') {
+      location.href = location.href.replace("http://", "https://");
+    }
+    
     /*var bg = $("body:before");
 
     function resizeBackground() {

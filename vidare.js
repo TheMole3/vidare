@@ -41,7 +41,7 @@ var modules = [
 	},{
 		active: true,
 		id: "#social",
-		height: 20,
+		height: 25,
 		margins: 2,
 	}
 ];

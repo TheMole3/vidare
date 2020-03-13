@@ -91,7 +91,7 @@ body {
 
 		text-align: center;
 	}
-
+	
 	/* info */
 
 	#infoText {
@@ -188,14 +188,11 @@ body {
 
 		text-align: center;
 	}
-
+	
 	/* Social */
 
 	#socialText {
-		position: absolute;
 	  padding: 3.125vw 0;
-		left: 3.125vw;
-		text-align: left;
 	}
 
 	#social {
@@ -204,7 +201,7 @@ body {
 		left: 15vw;
 
 		width: 70vw;
-		height: 25vw;
+		height: 20vw;
 
 		text-align: center;
 	}

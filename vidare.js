@@ -30,7 +30,7 @@ var modules = [
 	{
 		active: true,
 		id: "#anmalan",
-		height: 25,
+		height: 40,
 		margins: 2,
 	},
 	{

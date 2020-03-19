@@ -175,7 +175,9 @@ body {
 /* Vad */
 
 	#anmalanText {
+		position: absolute;
 	  padding: 6.25vw 0;
+		left: 3.125vw;
 	}
 
 	#anmalan {
@@ -184,9 +186,9 @@ body {
 		left: 15vw;
 
 		width: 70vw;
-		height: 25vw;
+		height: 40vw;
 
-		text-align: center;
+		text-align: left;
 	}
 
 	/* Social */

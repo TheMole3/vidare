@@ -11,6 +11,12 @@ var modules = [
 	},
 	{
 		active: true,
+		id: "#OBS",
+		height: 55,
+		margins: 1,
+	},
+	{
+		active: true,
 		id: "#info",
 		height: 95,
 		margins: 2,
@@ -71,7 +77,7 @@ render()
 
 // countDown
 
-var countDownDate = new Date("Apr 30, 2020 17:00:00")
+var countDownDate = new Date("Sep 11, 2020 17:00:00")
 var x = setInterval(function() {
 
   // Get today's date and time

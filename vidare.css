@@ -53,6 +53,7 @@ body {
 
 #whenAndWhere {display: none;}
 #info {display: none;}
+#OBS {display: none;}
 #countDown {display: none;}
 #speaker1 {display: none;}
 #speaker2 {display: none;}
@@ -107,6 +108,25 @@ body {
 
 		width: 65vw;
 		height: 95vw;
+
+		text-align: left;
+		font-size: 4vw;
+	}
+
+	#OBSText {
+		padding: 5vw 0;
+	}
+
+	#OBS {
+		/*background-color: rgba(240, 52, 52, 0.39);*/
+		padding-left: 2.5vw ;
+		padding-right: 2.5vw;
+		position: absolute;
+
+		left: 15vw;
+
+		width: 65vw;
+		height: 55vw;
 
 		text-align: left;
 		font-size: 4vw;

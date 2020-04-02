@@ -16,9 +16,9 @@ var modules = [
 		margins: 2,
 	},
 	{
-		active: false,
+		active: true,
 		id: "#info",
-		height: 95,
+		height: 40,
 		margins: 2,
 	},
 	{

@@ -13,10 +13,10 @@ var modules = [
 		active: true,
 		id: "#OBS",
 		height: 55,
-		margins: 1,
+		margins: 2,
 	},
 	{
-		active: true,
+		active: false,
 		id: "#info",
 		height: 95,
 		margins: 2,
@@ -34,7 +34,7 @@ var modules = [
 		margins: 2,
 	},
 	{
-		active: true,
+		active: false,
 		id: "#anmalan",
 		height: 40,
 		margins: 2,

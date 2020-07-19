@@ -69,7 +69,7 @@ function render() {
 			$(item.id).hide()
 		}
 	});
-	console.log(itemsBeforeHeight)
+	$('#background').css('height', `${itemsBeforeHeight + itemBeforeHeight + 10}vw`)
 };
 render()
 

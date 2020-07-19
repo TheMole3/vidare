@@ -9,6 +9,13 @@ min-height:100%;
 }
 body {}
 
+#signature {
+	position: fixed;
+	bottom: 0;
+	width: 20vw;
+	padding: 1vw
+}
+
 #container {
 	position: relative;;
 	height: 100%;

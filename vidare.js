@@ -3,19 +3,19 @@
 var defaultTopHeight = 20.5
 var globalMargin = 2.5;
 var modules = [
-	{
+/*	{
 		active: true,
 		id: "#countDown",
 		height: 12.5,
 		margins: 1,
-	},
+	},*/
 	{
 		active: true,
 		id: "#OBS",
-		height: 55,
+		height: 40,
 		margins: 2,
 	},
-	{
+/*	{
 		active: true,
 		id: "#info",
 		height: 40,
@@ -44,7 +44,7 @@ var modules = [
 		id: "#whenAndWhere",
 		height: 20,
 		margins: 2,
-	},{
+	}*/,{
 		active: true,
 		id: "#social",
 		height: 25,
